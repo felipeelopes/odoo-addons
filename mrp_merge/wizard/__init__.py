@@ -19,5 +19,6 @@
 #
 ##############################################################################
 
-import partner_loan
-import payment_receipts
+import merge_mo
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

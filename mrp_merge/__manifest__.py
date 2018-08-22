@@ -19,7 +19,21 @@
 #
 ##############################################################################
 
-import merge_mo
-import split_mo
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+{
+    'name': 'Unificar Ordem de Producao',
+    'version': '10.0.1.0.0',
+    'category': 'Manufacturing',
+    'description': """
+Unificando ordem de peoducao
+========================================
+Este modulo permite unificar duas ordens de producao.
+    """,
+    'author': 'VperfectCS, Felipe Lopes',
+    'website': 'http://www.vperfectcs.com',
+    'data': [
+        'wizard/merge_mo_view.xml'
+    ],
+    'installable': True,
+    'auto_install': False,
+}
