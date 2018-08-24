@@ -22,13 +22,16 @@
 
 {
     'name': 'EPI Matéria Prima',
-    'version': '10.0.1.0.0',
+    'version': '10.0.1.0.1',
     'category': 'Manufacturing',
     'description': """
 Adiciona campo de texto na lista de matéria prima para os EPIs necessários a lista correspondente serem adicionados.
     """,
     'author': 'Felipe Lopes',
     'website': '',
+    'depends': [
+        'mrp',
+    ],
     'data': [
         'views/mrp_bom_epi.xml'
     ],
